@@ -1,8 +1,8 @@
 param ($inputCSV, $outputXLSX)
 
 ### Set input and output path
-# $inputCSV = "\\plcfsvs2\plcshare\LAD\RPA\Test\0600_LAD_Operations\0606_RAD\18001_RiskRighter\Temp\Automated_11072018.csv"
-# $outputXLSX = "\\plcfsvs2\plcshare\LAD\RPA\Test\0600_LAD_Operations\0606_RAD\18001_RiskRighter\Temp\Automated_11072018.xlsx"
+# $inputCSV = ""
+# $outputXLSX = ""
 
 ### Create a new Excel Workbook with one empty sheet
 $excel = New-Object -ComObject excel.application 
